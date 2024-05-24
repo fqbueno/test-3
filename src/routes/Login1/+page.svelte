@@ -57,8 +57,10 @@
         /* .bodyContainer{height: 220px;}
         .headContainer{margin-top: 180px;} */
         html {
+            max-height:100%;
             max-width:100%;
             overflow-x: hidden;
+            overflow-y:hidden;
             transform:scale(1.3);
             
          }
