@@ -83,8 +83,8 @@
     }
 
     @media only screen and (max-width: 500px){
-        .bodyContainer{height: 180px;}
-        .headContainer{margin-top: 180px;}
+        .bodyContainer{height: 160px;}
+        .headContainer{margin-top: 190px;}
     }
 
     @media only screen and (max-width: 600px){
