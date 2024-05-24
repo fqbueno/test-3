@@ -48,16 +48,20 @@
     <style>
         html, body{
             max-width: 100%;
-            min-height: 100%;
+            max-height: 100%;
             background-color: #212429;
+            
         }
 
         @media only screen and (max-width: 600px){
         /* .bodyContainer{height: 220px;}
         .headContainer{margin-top: 180px;} */
         html {
-            transform:scale(1.5);
-        }
+            max-width:100%;
+            overflow-x: hidden;
+            transform:scale(1.3);
+            
+         }
         }   
     </style>
 </svelte:head>
