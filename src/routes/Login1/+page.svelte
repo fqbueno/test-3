@@ -82,7 +82,7 @@
         max-width: 100%;
     }
 
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 500px){
         .bodyContainer{height: 180px;}
         .headContainer{margin-top: 180px;}
     }
