@@ -10,7 +10,7 @@
         <h2 class="title">{Title}</h2>
     </div>
 
-    <br><br><br>
+    <!-- <br><br><br> -->
 
     <div class="bodyContainer">
         <div class="backDrop">
@@ -51,6 +51,7 @@
             min-height: 100%;
             background-color: #212429;
         }
+
     </style>
 </svelte:head>
 
@@ -61,6 +62,7 @@
         max-width: 40%;
         max-height: 100px;
         margin: auto;
+        margin-bottom: 2.88%;
     }
 
     .bodyContainer {
@@ -70,7 +72,8 @@
     }
 
     @media only screen and (max-width: 600px){
-        .bodyContainer{height: 300px;}
+        .bodyContainer{height: 220px;}
+        .headContainer{margin-top: 180px;}
     }
 
     .backDrop {
