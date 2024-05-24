@@ -53,9 +53,7 @@
             
         }
 
-        @media only screen and (max-width: 600px){
-        /* .bodyContainer{height: 220px;}
-        .headContainer{margin-top: 180px;} */
+        /* @media only screen and (max-width: 600px){
         html {
             max-height:100%;
             max-width:100%;
@@ -63,8 +61,8 @@
             overflow-y:hidden;
             transform:scale(1.3);
             
-         }
-        }   
+            }
+        }    */
     </style>
 </svelte:head>
 
@@ -84,8 +82,8 @@
         max-width: 100%;
     }
 
-    @media only screen and (max-width: 600px){
-        .bodyContainer{height: 220px;}
+    @media only screen and (max-width: 400px){
+        .bodyContainer{height: 180px;}
         .headContainer{margin-top: 180px;}
     }
 
