@@ -53,16 +53,16 @@
             
         }
 
-        /* @media only screen and (max-width: 600px){
+        @media only screen and (max-width: 600px){
         html {
+            transform:scale(1.3);
             max-height:100%;
             max-width:100%;
             overflow-x: hidden;
             overflow-y:hidden;
-            transform:scale(1.3);
-            
             }
-        }    */
+        }   
+
     </style>
 </svelte:head>
 
