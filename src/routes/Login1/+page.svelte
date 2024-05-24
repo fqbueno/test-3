@@ -52,6 +52,13 @@
             background-color: #212429;
         }
 
+        @media only screen and (max-width: 600px){
+        /* .bodyContainer{height: 220px;}
+        .headContainer{margin-top: 180px;} */
+        html {
+            transform:scale(1.5);
+        }
+        }   
     </style>
 </svelte:head>
 
