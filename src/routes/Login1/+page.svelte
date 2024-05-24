@@ -6,42 +6,45 @@
 </script>
 
 <body>
-    <div class="headContainer">
-        <h2 class="title">{Title}</h2>
-    </div>
-
-    <!-- <br><br><br> -->
-
-    <div class="bodyContainer">
-        <div class="backDrop">
-            <div class="dropHead">
-                <p class="signHead"> Welcome Back </p>
-                <p class=subText> Enter your credentials to continue.</p>
-            </div>
-
-            <div class="userCred">
-                <label class="txtLabel" for="userName">Username: </label>
-                <input class="inpBox" type="text" id="userName" placeholder="Enter your username here" bind:value={userName}>
-            </div>
-
-            <div class="passCred">
-                <label class="txtLabel" for="userName">Password: </label>
-                <input class="inpBox" type="password" id="password" placeholder="Enter your password here" bind:value={password}>
-            </div>
-
-            <div class="submitCont">
-                <a href="/Home"><button class="submitBtn" type="button">Log In</button></a>
-            </div>
-
-            <div class="regCont">
-                <span class="regText1">Don't have an account?</span>
-                <span class="regText2">Register here</span>
-            </div>
-
-            <hr class="end">
+    <div class="siteWrapper">
+        <div class="headContainer">
+            <h2 class="title">{Title}</h2>
         </div>
-
+    
+        <!-- <br><br><br> -->
+    
+        <div class="bodyContainer">
+            <div class="backDrop">
+                <div class="dropHead">
+                    <p class="signHead"> Welcome Back </p>
+                    <p class=subText> Enter your credentials to continue.</p>
+                </div>
+    
+                <div class="userCred">
+                    <label class="txtLabel" for="userName">Username: </label>
+                    <input class="inpBox" type="text" id="userName" placeholder="Enter your username here" bind:value={userName}>
+                </div>
+    
+                <div class="passCred">
+                    <label class="txtLabel" for="userName">Password: </label>
+                    <input class="inpBox" type="password" id="password" placeholder="Enter your password here" bind:value={password}>
+                </div>
+    
+                <div class="submitCont">
+                    <a href="/Home"><button class="submitBtn" type="button">Log In</button></a>
+                </div>
+    
+                <div class="regCont">
+                    <span class="regText1">Don't have an account?</span>
+                    <span class="regText2">Register here</span>
+                </div>
+    
+                <hr class="end">
+            </div>
+    
+        </div>
     </div>
+
 </body>
 
 <svelte:head>
@@ -55,13 +58,10 @@
 
         @media only screen and (max-width: 600px){
         html {
+            overflow:hidden;
             transform:scale(1.3);
-            max-height:100%;
-            max-width:100%;
-            overflow-x: hidden;
-            overflow-y:hidden;
-            }
         }   
+    }
 
     </style>
 </svelte:head>
@@ -82,8 +82,8 @@
         max-width: 100%;
     }
 
-    @media only screen and (max-width: 500px){
-        .bodyContainer{height: 180px;}
+    @media only screen and (max-width: 600px){
+        .bodyContainer{height: 200px;}
         .headContainer{margin-top: 180px;}
     }
 
