@@ -82,14 +82,9 @@
         max-width: 100%;
     }
 
-    @media only screen and (max-width: 500px){
-        .bodyContainer{height: 160px;}
-        .headContainer{margin-top: 190px;}
-    }
-
     @media only screen and (max-width: 600px){
-        .bodyContainer{height: 160px;}
-        .headContainer{margin-top: 190px;}
+        .bodyContainer{height: 170px;}
+        .headContainer{margin-top: 210px;}
     }
 
 
